@@ -106,8 +106,8 @@
           detailEl.textContent = 'On clôture tranquillement, termine tes projets avant l\'arrêt complet.';
           countdownEl.textContent = 'Extinction dans ' + formatDiff(EVENT_HARD_END - now) + '.';
         } else if (now < EVENT_START) {
-          answerEl.textContent = 'Pas encore...';
-          detailEl.textContent = 'Officiellement non, mais c\'est comme si. 😏';
+          answerEl.textContent = 'Officiellement non, mais c\'est comme si. 😏';
+          detailEl.textContent = 'Prépare ton launcher, ouverture imminente.';
           countdownEl.textContent = 'Plus que ' + formatDiff(EVENT_START - now) + ' avant le lancement.';
         } else {
           answerEl.textContent = 'C\'est fini.';
